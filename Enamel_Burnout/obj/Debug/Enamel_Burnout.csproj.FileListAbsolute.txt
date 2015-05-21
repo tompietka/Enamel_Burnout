@@ -1,0 +1,13 @@
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\Enamel_Burnout.exe.config
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.csprojResolveAssemblyReference.cache
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\MainWindow.baml
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\MainWindow.g.cs
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\App.g.cs
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout_MarkupCompile.cache
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.g.resources
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.Properties.Resources.resources
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.csproj.GenerateResource.Cache
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\Enamel_Burnout.exe
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\Enamel_Burnout.pdb
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.exe
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.pdb
