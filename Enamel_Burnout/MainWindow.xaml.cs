@@ -30,6 +30,8 @@ namespace Enamel_Burnout
 
             streamWriter.WriteLine("(defglobal ?*zmTemperatura* = " + TxtBoxTemperatura.Text + " )");
             streamWriter.WriteLine("(defglobal ?*zmCzas* = " + TxtBoxCzas.Text + " )");
+            streamWriter.WriteLine("(defglobal ?*zmTaca* = " + TxtTaca.Text + " )");
+            streamWriter.WriteLine("(defglobal ?*zmWsp* = " + TxtWspRoz.Text + " )");
 
             streamWriter.Close();
 
@@ -41,6 +43,11 @@ namespace Enamel_Burnout
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             Result.Text = File.ReadAllText("wyniki.txt");
+
+        }
+
+        private void TxtWspRoz_TextChanged(object sender, System.Windows.Controls.TextChangedEventArgs e)
+        {
 
         }
     }
