@@ -3,11 +3,13 @@ using System.Diagnostics;
 using System.IO;
 using System.Reflection;
 using System.Windows;
+using MahApps.Metro.Controls;
 
 namespace Enamel_Burnout
 {
 
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
+
     {
         public MainWindow()
         {

@@ -1,2 +1,2 @@
-(defglobal ?*zmTemperatura* = 791 )
-(defglobal ?*zmCzas* = 39 )
+(defglobal ?*zmTemperatura* = 837 )
+(defglobal ?*zmCzas* = 27 )

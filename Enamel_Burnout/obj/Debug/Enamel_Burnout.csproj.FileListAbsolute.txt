@@ -11,3 +11,7 @@ c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burno
 c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\Enamel_Burnout.pdb
 c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.exe
 c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\Enamel_Burnout.pdb
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\MahApps.Metro.dll
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\System.Windows.Interactivity.dll
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\bin\Debug\MahApps.Metro.xml
+c:\users\tomek\documents\visual studio 2013\Projects\Enamel_Burnout\Enamel_Burnout\obj\Debug\App.baml
