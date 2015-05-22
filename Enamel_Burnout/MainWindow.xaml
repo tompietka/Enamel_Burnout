@@ -21,7 +21,7 @@
         <StackPanel HorizontalAlignment="Left" Height="138" Margin="148,47,0,0" VerticalAlignment="Top" Width="208" RenderTransformOrigin="-0.41,0.06">
             <Slider Height="25" Name ="Temperatura" Minimum="780" Maximum="860" TickFrequency="1" IsSnapToTickEnabled="True"/>
             <Slider Height="25" Name ="Czas" Minimum="20" Maximum="40" TickFrequency="1" IsSnapToTickEnabled="True"/>
-            <Slider Height="25" x:Name ="WspRozszerzalnosci" Minimum="14" Maximum="20" TickFrequency="0.1" IsSnapToTickEnabled="True"/>
+            <Slider Height="25" x:Name ="WspRozszerzalnosci" Minimum="10" Maximum="20" TickFrequency="0.1" IsSnapToTickEnabled="True"/>
             <Slider Height="25" x:Name ="Taca" Minimum="1" Maximum="3" TickFrequency="0.1" IsSnapToTickEnabled="True"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Height="100" Margin="361,47,0,0" VerticalAlignment="Top" Width="39">

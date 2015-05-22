@@ -9,11 +9,11 @@
 (batch fakty.clp)
 
 ;;deklaracja zmiennych rozmytych
-(defglobal ?*TempFvar* = (new FuzzyVariable "Temp" 780.0 860.0 "Deg C"))
-(defglobal ?*CzasFvar* = (new FuzzyVariable "Czas" 20.0 40.0 "Deg C"))
+(defglobal ?*TempFvar* = (new FuzzyVariable "Temp" 780.0 860.0 "Stop C"))
+(defglobal ?*CzasFvar* = (new FuzzyVariable "Czas" 20.0 40.0 "minutes"))
 
 (defglobal ?*TacaFvar* = (new FuzzyVariable "Taca" 1.0 3.0 "liczba"))
-(defglobal ?*WspFvar* = (new FuzzyVariable "Wsp" 14.0 20.0 "alfa"))
+(defglobal ?*WspFvar* = (new FuzzyVariable "Wsp" 10.0 20.0 "alfa"))
 
 
 (defglobal ?*TasmociagFvar* = (new FuzzyVariable "Tasmociag" 1.0 10.0 "ustawienie"))
@@ -31,12 +31,12 @@
     
 (?*TempFvar* addTerm "zdobienie" (new TrapezoidFuzzySet 780.0 780.0 800.0 820.0))
 (?*TempFvar* addTerm "kryjaca" (new TrapezoidFuzzySet 800.0 810.0 830.0 840.0))
-(?*TempFvar* addTerm "gruntowa" (new TrapezoidFuzzySet 820.0 840.0 850.0 860.0))
+(?*TempFvar* addTerm "gruntowa" (new TrapezoidFuzzySet 820.0 840.0 860.0 860.0))
 
 
 (?*CzasFvar* addTerm "krotki" (new TrapezoidFuzzySet 20.0 20.0 25.0 30.0))
 (?*CzasFvar* addTerm "sredni" (new TrapezoidFuzzySet 25.0 27.0 29.0 35.0))
-(?*CzasFvar* addTerm "dlugi" (new TrapezoidFuzzySet 29.0 31.0 36.0 40.0))
+(?*CzasFvar* addTerm "dlugi" (new TrapezoidFuzzySet 29.0 31.0 40.0 40.0))
 
 
 (?*TacaFvar* addTerm "pierwsza" (new TrapezoidFuzzySet 1.0 1.0 2.0 2.0))
@@ -44,13 +44,13 @@
 (?*TacaFvar* addTerm "trzecia" (new TrapezoidFuzzySet 2.0 2.0 3.0 3.0))
 
 
-(?*WspFvar* addTerm "niski" (new TrapezoidFuzzySet 14.0 14.0 15.0 16.0))
+(?*WspFvar* addTerm "niski" (new TrapezoidFuzzySet 10.0 14.0 15.0 16.0))
 (?*WspFvar* addTerm "sredni" (new TrapezoidFuzzySet 15.0 15.0 16.0 17.0))
 (?*WspFvar* addTerm "wysoki" (new TrapezoidFuzzySet 16.0 17.0 18.0 20.0))
     
 	
-(?*TasmociagFvar* addTerm "wolno" (new TriangleFuzzySet 1.0 2.0 3.0))
-(?*TasmociagFvar* addTerm "srednio" (new TriangleFuzzySet 3.0 4.0 5.0))
+(?*TasmociagFvar* addTerm "wolno" (new TriangleFuzzySet 1.0 2.0 4.0))
+(?*TasmociagFvar* addTerm "srednio" (new TriangleFuzzySet 3.0 4.0 6.0))
 (?*TasmociagFvar* addTerm "szybko" (new TriangleFuzzySet 5.0 6.0 7.0))
 (?*TasmociagFvar* addTerm "bszybko" (new TriangleFuzzySet 6.0 8.0 10.0))
 

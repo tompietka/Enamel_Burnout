@@ -1,4 +1,4 @@
-(defglobal ?*zmTemperatura* = 788 )
-(defglobal ?*zmCzas* = 33 )
-(defglobal ?*zmTaca* = 3 )
-(defglobal ?*zmWsp* = 20 )
+(defglobal ?*zmTemperatura* = 800 )
+(defglobal ?*zmCzas* = 31 )
+(defglobal ?*zmTaca* = 2.7 )
+(defglobal ?*zmWsp* = 18.8 )
